@@ -1,0 +1,40 @@
+/* Element Selector */
+body{
+    background-color: aquamarine;
+}
+/* Group selector */
+h1,h2,p{
+        font-size: 30px;
+}
+/* class selector */
+.mygp{
+    border: 2px solid black;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+/* id selector */
+#power{
+    color: blue;
+}
+#point{
+    color: brown;  
+}
+#generator{
+    color: rgb(5, 5, 151);
+}
+/* Group ID Selector */
+#point,#power{
+    font-size: 30px;
+}
+
+/* Universal Seletor */
+  *{
+    text-align: center;
+  }
+
+  /* Child Selector */
+  p>i>u{
+    color:rgb(47, 138, 47)
+  }
